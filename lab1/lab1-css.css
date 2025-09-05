@@ -1,0 +1,79 @@
+body {
+    background-color: #0066CC;
+    margin:0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: navy;
+    margin:0 auto;
+    padding: 20px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin:0 auto;
+    padding: 5px;
+}
+
+.indexButton {
+    text-align: center;
+    color: white;
+    background-color: navy;
+    font-size: large;
+    display: inline-block;
+
+}
+
+.teamImg {
+    border: 5px solid navy;
+    border-radius: 50px;
+    margin: 10px auto;
+    position: relative;
+    width: 75%;
+    height: auto;
+
+}
+
+row {
+    display: flex;
+    justify-content: center;
+}
+
+imgcaption {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size:max(0.5vw, 1vw);
+}
+
+figure {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: large;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px auto;
+    background-color: grey;
+    font-size: small;
+    padding: 20px;
+    margin: 0;
+}
+
+#footerImg {
+    width: 300px;
+    height: auto;
+    margin: 0;
+}
