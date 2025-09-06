@@ -28,6 +28,26 @@ h2 {
 
 }
 
+.indexButton:hover {
+    background-color: navajowhite;
+    color: navy;
+    cursor: pointer;
+}
+
+.indexButtonActive {
+    text-align: center;
+    color: navy;
+    background-color: navajowhite;
+    font-size: large;
+    display: inline-block;
+}
+
+.indexButtonActive:hover {
+    background-color: navy;
+    color: navajowhite;
+    cursor: pointer;
+}
+
 .teamImg {
     border: 5px solid navy;
     border-radius: 50px;
@@ -65,15 +85,82 @@ p {
 
 footer {
     text-align: center;
-    margin: 20px auto;
     background-color: grey;
-    font-size: small;
     padding: 20px;
     margin: 0;
+}
+
+footer p {
+    color: black;
+    font-size: small;
 }
 
 #footerImg {
     width: 300px;
     height: auto;
     margin: 0;
+}
+
+#footerText {
+    font-size: xx-small;
+}
+
+#contactForm {
+    display: block;
+    margin: 0 auto;
+
+}
+
+table {
+    margin: 0 auto;
+    border: 2px solid navajowhite;
+    border-collapse: seperate;
+    background-color: navy;
+    width: auto;
+    height: 150%;
+    font-size: larger;
+
+}
+
+#tableHeader {
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.tableTitle {
+    border: 2px solid navajowhite;
+    background-color: navajowhite;
+    color: navy;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.tableContent {
+    color: navajowhite;
+    padding: 10px;
+}
+
+#hobbyList {
+    text-align: left;
+    margin: 0 auto;
+    color: navajowhite;
+    font-size: larger;
+
+}
+
+.centerList {
+    display: flex;
+    text-align: center;
+}
+
+#hobbyTitle {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+#welcomeMessage p {
+    margin: 0 auto;
+    padding: 20px;
+    font-size: x-large;
 }
