@@ -1,0 +1,57 @@
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#userBox { 
+    text-align: center;
+    margin: 0 auto;
+    width: 5%;
+    display: block;
+    scale: 2;
+    background-color: grey;
+}
+
+#guessButton { 
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: lightgreen;
+}
+
+#previousGuesses { 
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: lightgreen;
+    width: 20%;
+}
+
+#result { 
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: large;
+    background-color: rgb(105, 24, 182);
+    width:20%;
+}
+
+h1 {
+    color: darkblue;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-color: lightyellow;
+    width: 30%;
+}
+
+h3 {
+    margin: 0 auto;
+    color: darkgreen;
+    display: block;
+    text-align: center;
+    background-color: lightyellow;
+    width: 30%;
+}
