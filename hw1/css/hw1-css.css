@@ -1,5 +1,5 @@
 body {
-    margin:0;
+    margin: 0;
     background-image: url('../images/clouds.jpeg');
     background-size: cover;
 }
@@ -8,7 +8,7 @@ header {
     color: #042A2B;
     text-align: center;
     background-color: #EF7B45;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 30px;
     font-family: 'Arial Black', Gadget, sans-serif;
     font-size: xx-large;
@@ -17,7 +17,7 @@ header {
 h2 {
     text-align: center;
     color: #042A2B;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 10px;
 }
 
@@ -27,7 +27,6 @@ h2 {
     color: #042A2B;
     font-size: large;
     display: inline-block;
-
 }
 
 .indexButton:hover {
@@ -48,12 +47,11 @@ h2 {
     background-color: #5EB1BF;
 }
 
-
 #indexh1 {
     color: #042A2B;
     text-align: center;
     background-color: #EF7B45;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 20px;
     font-family: 'Arial Black', Gadget, sans-serif;
     width: 70%;
@@ -63,12 +61,11 @@ h2 {
     color: #042A2B;
     text-align: center;
     background-color: #EF7B45;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 20px;
     font-family: 'Arial Black', Gadget, sans-serif;
     width: 30%;
 }
-
 
 p {
     color: #042A2B;
@@ -101,7 +98,7 @@ h3 {
     color: #042A2B;
     text-align: center;
     background-color: #EF7B45;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 10px;
     font-family: 'Arial Black', Gadget, sans-serif;
     width: 40%;
@@ -138,7 +135,6 @@ ul {
     border-radius: 10px;
     padding: 10px;
     font-size: large;
-
 }
 
 li {
@@ -149,7 +145,7 @@ h4 {
     color: #042A2B;
     text-align: center;
     background-color: #EF7B45;
-    margin:20px auto 10px auto;
+    margin: 20px auto 10px auto;
     padding: 10px;
     font-family: 'Arial Black', Gadget, sans-serif;
     width: 20%;
@@ -172,7 +168,7 @@ input[list] {
 input[list]:focus {
     outline: none;
     border-color: #0073e6;
-    box-shadow: 0 0 3px rgba(0,115,230,0.5);
+    box-shadow: 0 0 3px rgba(0, 115, 230, 0.5);
 }
 
 #content {
