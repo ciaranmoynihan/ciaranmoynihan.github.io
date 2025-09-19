@@ -3,7 +3,10 @@ header {
     text-align: center;
 }
 
-
+body {
+    background-image: url('../images/numImg.png');
+    background-size: cover;
+}
 
 #userBox { 
     text-align: center;
