@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #3f78c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    background: white;
+    border: solid blue;
+    border-width: thick;
+    border-radius: large;
+    padding: medium;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: medium;
+}
+
+h2 {
+    margin: 0;
+    color: #1e3a8a;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.dice {
+    width: 20%;
+    height: auto;
+    margin: small;
+    border-radius: small;
+}
+
+.dice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: medium;
+}
+
+button {
+    padding: small medium;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: small;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+button:disabled {
+    background: gray;
+}
+
+#result {
+    font-weight: bold;
+    margin: small 0;
+    font-size: large;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: medium;
+    font-weight: bold;
+    font-size: large;
+}
