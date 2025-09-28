@@ -5,12 +5,21 @@ let playerWins = 0;
 let opponentWins = 0;
 let rolling = false;
 
+const diceImages = [
+    "images/1.png",
+    "images/2.png",
+    "images/3.png",
+    "images/4.png",
+    "images/5.png",
+    "images/6.png"
+];
+
 function rollDie() {
-    return Math.floor(Math.random() * 6) + 1;
+    return Math.floor(Math.random() * 6);
 }
 
 function setDieImage(id, value) {
-    document.querySelector(id).src = "images/" + value + ".png";
+    document.querySelector(id).src = diceImages[value];
 }
 
 function clearGlow() {
@@ -24,17 +33,17 @@ function roll() {
 
     let count = 0;
     let interval = setInterval(function () {
-        let tempPlayer = rollDie();
-        let tempOpponent = rollDie();
+        let tempPlayer = Math.floor(Math.random() * diceImages.length);
+        let tempOpponent = Math.floor(Math.random() * diceImages.length);
         setDieImage("#player", tempPlayer);
         setDieImage("#opponent", tempOpponent);
         clearGlow();
         count++;
+
         if (count > 8) {
             clearInterval(interval);
-
-            let player = rollDie();
-            let opponent = rollDie();
+            let player = Math.floor(Math.random() * diceImages.length);
+            let opponent = Math.floor(Math.random() * diceImages.length);
             setDieImage("#player", player);
             setDieImage("#opponent", opponent);
 
@@ -74,8 +83,8 @@ function roll() {
 function resetGame() {
     playerWins = 0;
     opponentWins = 0;
-    setDieImage("#player", 1);
-    setDieImage("#opponent", 1);
+    setDieImage("#player", 0);
+    setDieImage("#opponent", 0);
     document.querySelector("#pw").textContent = 0;
     document.querySelector("#ow").textContent = 0;
     document.querySelector("#result").textContent = "Click Roll to start";
